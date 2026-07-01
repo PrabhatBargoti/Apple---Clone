@@ -5,6 +5,7 @@ import Modelview from './Modelview'
 import { yellowImg } from '../utils'
 import * as THREE from 'three'
 import { View } from '@react-three/drei'
+import { Canvas } from '@react-three/fiber'
 
 const Model = () => {
     const [size, setsize] = useState('small')
